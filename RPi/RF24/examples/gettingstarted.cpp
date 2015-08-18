@@ -140,9 +140,9 @@ int main(int argc, char** argv){
 			}
 
 			// Try again 1s later
-			// delay(1000);
+			 delay(1000);
 
-			sleep(1);
+			//sleep(1);
 
 		}
 
