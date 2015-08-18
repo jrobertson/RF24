@@ -24,8 +24,8 @@ LIBNAME=$(LIB).so.1.0
 # Where to put the header files
 HEADER_DIR=${PREFIX}/include/RF24
 
-# The recommended compiler flags for the Raspberry Pi
-CCFLAGS=-Ofast -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s
+# The recommended compiler flags for the Raspberry Pi 2
+CCFLAGS=-Ofast -mfpu=vfp -mfloat-abi=hard -march=armv7-a -mtune=arm1176jzf-s
 
 # make all
 # reinstall the library after each recompilation
